@@ -62,4 +62,4 @@ function s:RegenerateCtags()
 endfunction
 
 command Ctags call s:RegenerateCtags()
-autocmd BufEnter * call s:RegenerateCtags()
+"autocmd BufEnter * call s:RegenerateCtags()
